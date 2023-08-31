@@ -55,4 +55,9 @@ button:hover{
     color: #000;
     border: solid 2px #000;
 }
-
+.success{
+    border-color: #54c83f;
+}
+.error{
+    color: #a73131;
+}
