@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/index.css">
     <title>Validação de Formulario</title>
 </head>
 <body>
-    <div>
+    <div class="form">
+        <h1>Formulario de Inscrição</h1>
         <form action="">
-            <h1>Formulario de Inscrição</h1>
             <label for="name">Nome</label>
             <input type="text" name="name" id="name">
             <span id="name-error"></span>
@@ -18,6 +19,7 @@
             <label for="password">Senha</label>
             <input type="text" name="password" id="password">
             <span id="password-error"></span>
+            <button type="submit">Cadastra</button>
         </form>
     </div>
 </body>
