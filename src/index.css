@@ -35,9 +35,9 @@ label{
     padding: 0.75rem 0.5rem;
 }
 input{
-    padding: .5rem 0;
+    padding: .5rem 1rem;
     border-radius: 20px;
-    border: solid 2px
+    border: solid 2px inherit
 }
 button{
     width: 50%;
@@ -59,5 +59,5 @@ button:hover{
     border-color: #54c83f;
 }
 .error{
-    color: #a73131;
+    border-color: #a73131;
 }
