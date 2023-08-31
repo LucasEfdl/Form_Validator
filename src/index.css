@@ -37,7 +37,12 @@ label{
 input{
     padding: .5rem 1rem;
     border-radius: 20px;
-    border: solid 2px inherit
+    border: solid 5px inherit
+}
+span{
+    color: #f64348;
+    font-size: .75rem;
+    margin: .25rem;
 }
 button{
     width: 50%;
